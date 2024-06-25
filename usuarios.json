@@ -1,0 +1,136 @@
+{
+    "usuarios": {
+        "5212223632487@c.us": {
+            "mensaje": "Archivo recibido: C:\\Users\\jairc\\Pictures\\node-whatsapp-apirest - copia\\src\\config\\wsp\\media\\media_1706480119781.jpeg",
+            "estado": "ocupado",
+            "prompt": "",
+            "path_imagen": "C:\\Users\\jairc\\Pictures\\node-whatsapp-apirest - copia\\src\\config\\wsp\\media\\media_1706480119781.jpeg"
+        },
+        "5212212241299@c.us": {
+            "mensaje": "Hola",
+            "estado": "libre",
+            "prompt": "",
+            "path_imagen": null
+        },
+        "5215532594986@c.us": {
+            "mensaje": "Archivo recibido: C:\\Users\\jairc\\Pictures\\node-whatsapp-apirest - copia\\src\\config\\wsp\\media\\media_1706471158068.jpeg",
+            "estado": "ocupado",
+            "prompt": "",
+            "path_imagen": "C:\\Users\\jairc\\Pictures\\node-whatsapp-apirest - copia\\src\\config\\wsp\\media\\media_1706471158068.jpeg"
+        },
+        "5215581196505@c.us": {
+            "mensaje": "Archivo recibido: C:\\Users\\jairc\\Pictures\\node-whatsapp-apirest - copia\\src\\config\\wsp\\media\\media_1706473589853.jpeg",
+            "estado": "ocupado",
+            "prompt": "",
+            "path_imagen": "C:\\Users\\jairc\\Pictures\\node-whatsapp-apirest - copia\\src\\config\\wsp\\media\\media_1706473589853.jpeg"
+        },
+        "5215522019380@c.us": {
+            "mensaje": "Hola",
+            "estado": "libre",
+            "prompt": "",
+            "path_imagen": null
+        },
+        "5215585289398@c.us": {
+            "mensaje": "Como cuantos mensajes les han llegado ?",
+            "estado": "ocupado",
+            "prompt": "",
+            "path_imagen": "C:\\Users\\jairc\\Pictures\\node-whatsapp-apirest - copia\\src\\config\\wsp\\media\\media_1706473226933.jpeg"
+        },
+        "5215585087544@c.us": {
+            "mensaje": "Archivo recibido: C:\\Users\\jairc\\Pictures\\node-whatsapp-apirest - copia\\src\\config\\wsp\\media\\media_1706473630890.jpeg",
+            "estado": "ocupado",
+            "prompt": "",
+            "path_imagen": "C:\\Users\\jairc\\Pictures\\node-whatsapp-apirest - copia\\src\\config\\wsp\\media\\media_1706473630890.jpeg"
+        },
+        "5215545288806@c.us": {
+            "mensaje": "Archivo recibido: C:\\Users\\jairc\\Pictures\\node-whatsapp-apirest - copia\\src\\config\\wsp\\media\\media_1706474202910.jpeg",
+            "estado": "ocupado",
+            "prompt": "",
+            "path_imagen": "C:\\Users\\jairc\\Pictures\\node-whatsapp-apirest - copia\\src\\config\\wsp\\media\\media_1706474202910.jpeg"
+        },
+        "5215567397247@c.us": {
+            "mensaje": "Archivo recibido: C:\\Users\\jairc\\Pictures\\node-whatsapp-apirest - copia\\src\\config\\wsp\\media\\media_1706475105953.jpeg",
+            "estado": "ocupado",
+            "prompt": "",
+            "path_imagen": "C:\\Users\\jairc\\Pictures\\node-whatsapp-apirest - copia\\src\\config\\wsp\\media\\media_1706475105953.jpeg"
+        },
+        "5215531067761@c.us": {
+            "mensaje": "Archivo recibido: C:\\Users\\jairc\\Pictures\\node-whatsapp-apirest - copia\\src\\config\\wsp\\media\\media_1706477062804.jpeg",
+            "estado": "ocupado",
+            "prompt": "",
+            "path_imagen": "C:\\Users\\jairc\\Pictures\\node-whatsapp-apirest - copia\\src\\config\\wsp\\media\\media_1706477062804.jpeg"
+        },
+        "5215577951878@c.us": {
+            "mensaje": "Archivo recibido: C:\\Users\\jairc\\Pictures\\node-whatsapp-apirest - copia\\src\\config\\wsp\\media\\media_1706479070743.jpeg",
+            "estado": "ocupado",
+            "prompt": "",
+            "path_imagen": "C:\\Users\\jairc\\Pictures\\node-whatsapp-apirest - copia\\src\\config\\wsp\\media\\media_1706479070743.jpeg"
+        },
+        "5215531186830@c.us": {
+            "mensaje": "Archivo recibido: C:\\Users\\jairc\\Pictures\\node-whatsapp-apirest - copia\\src\\config\\wsp\\media\\media_1706475538397.jpeg",
+            "estado": "ocupado",
+            "prompt": "",
+            "path_imagen": "C:\\Users\\jairc\\Pictures\\node-whatsapp-apirest - copia\\src\\config\\wsp\\media\\media_1706475538397.jpeg"
+        },
+        "5215564939759@c.us": {
+            "mensaje": "Archivo recibido: C:\\Users\\jairc\\Pictures\\node-whatsapp-apirest - copia\\src\\config\\wsp\\media\\media_1706476244734.jpeg",
+            "estado": "ocupado",
+            "prompt": "",
+            "path_imagen": "C:\\Users\\jairc\\Pictures\\node-whatsapp-apirest - copia\\src\\config\\wsp\\media\\media_1706476244734.jpeg"
+        },
+        "5215526542097@c.us": {
+            "mensaje": "?",
+            "estado": "libre",
+            "prompt": "",
+            "path_imagen": null
+        },
+        "5215551552743@c.us": {
+            "mensaje": "Archivo recibido: C:\\Users\\jairc\\Pictures\\node-whatsapp-apirest - copia\\src\\config\\wsp\\media\\media_1706488545947.jpeg",
+            "estado": "ocupado",
+            "prompt": "",
+            "path_imagen": "C:\\Users\\jairc\\Pictures\\node-whatsapp-apirest - copia\\src\\config\\wsp\\media\\media_1706488545947.jpeg"
+        },
+        "5215587299125@c.us": {
+            "mensaje": "Archivo recibido: C:\\Users\\jairc\\Pictures\\node-whatsapp-apirest - copia\\src\\config\\wsp\\media\\media_1706489931344.jpeg",
+            "estado": "ocupado",
+            "prompt": "",
+            "path_imagen": "C:\\Users\\jairc\\Pictures\\node-whatsapp-apirest - copia\\src\\config\\wsp\\media\\media_1706489931344.jpeg"
+        },
+        "5215516940414@c.us": {
+            "mensaje": "Archivo recibido: C:\\Users\\jairc\\Pictures\\node-whatsapp-apirest - copia\\src\\config\\wsp\\media\\media_1706490074631.jpeg",
+            "estado": "ocupado",
+            "prompt": "",
+            "path_imagen": "C:\\Users\\jairc\\Pictures\\node-whatsapp-apirest - copia\\src\\config\\wsp\\media\\media_1706490074631.jpeg"
+        },
+        "5215575403246@c.us": {
+            "mensaje": "Archivo recibido: C:\\Users\\jairc\\Pictures\\node-whatsapp-apirest - copia\\src\\config\\wsp\\media\\media_1706490175090.jpeg",
+            "estado": "ocupado",
+            "prompt": "",
+            "path_imagen": "C:\\Users\\jairc\\Pictures\\node-whatsapp-apirest - copia\\src\\config\\wsp\\media\\media_1706490175090.jpeg"
+        },
+        "5215520935872@c.us": {
+            "mensaje": "Archivo recibido: C:\\Users\\jairc\\Pictures\\node-whatsapp-apirest - copia\\src\\config\\wsp\\media\\media_1706490218057.jpeg",
+            "estado": "ocupado",
+            "prompt": "",
+            "path_imagen": "C:\\Users\\jairc\\Pictures\\node-whatsapp-apirest - copia\\src\\config\\wsp\\media\\media_1706490218057.jpeg"
+        },
+        "5215539556722@c.us": {
+            "mensaje": "Archivo recibido: C:\\Users\\jairc\\Pictures\\node-whatsapp-apirest - copia\\src\\config\\wsp\\media\\media_1706490417148.jpeg",
+            "estado": "ocupado",
+            "prompt": "",
+            "path_imagen": "C:\\Users\\jairc\\Pictures\\node-whatsapp-apirest - copia\\src\\config\\wsp\\media\\media_1706490417148.jpeg"
+        },
+        "5215519221599@c.us": {
+            "mensaje": "Archivo recibido: C:\\Users\\jairc\\Pictures\\node-whatsapp-apirest - copia\\src\\config\\wsp\\media\\media_1706490510200.jpeg",
+            "estado": "ocupado",
+            "prompt": "",
+            "path_imagen": "C:\\Users\\jairc\\Pictures\\node-whatsapp-apirest - copia\\src\\config\\wsp\\media\\media_1706490510200.jpeg"
+        },
+        "5215579463752@c.us": {
+            "mensaje": "Archivo recibido: C:\\Users\\jairc\\Pictures\\node-whatsapp-apirest - copia\\src\\config\\wsp\\media\\media_1706490969425.jpeg",
+            "estado": "ocupado",
+            "prompt": "",
+            "path_imagen": "C:\\Users\\jairc\\Pictures\\node-whatsapp-apirest - copia\\src\\config\\wsp\\media\\media_1706490969425.jpeg"
+        }
+    }
+}

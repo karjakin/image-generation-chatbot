@@ -1,0 +1,216 @@
+{
+  "405": {
+    "inputs": {
+      "provider": "CPU"
+    },
+    "class_type": "InsightFaceLoader_Zho",
+    "_meta": {
+      "title": "📷InsightFace Loader"
+    }
+  },
+  "406": {
+    "inputs": {
+      "controlnet_path": "D:\\Code\\ComfyUI\\custom_nodes\\ComfyUI-InstantID\\checkpoints\\controlnet"
+    },
+    "class_type": "IDControlNetLoader",
+    "_meta": {
+      "title": "📷ID ControlNet Loader"
+    }
+  },
+  "407": {
+    "inputs": {
+      "Ipadapter_instantid_path": "D:\\Code\\ComfyUI\\custom_nodes\\ComfyUI-InstantID\\checkpoints",
+      "filename": "ip-adapter.bin",
+      "pipe": [
+        "411",
+        0
+      ]
+    },
+    "class_type": "Ipadapter_instantidLoader",
+    "_meta": {
+      "title": "📷Ipadapter_instantid Loader"
+    }
+  },
+  "408": {
+    "inputs": {
+      "prompt": "An male Astronaut in space,a cutting-edge astronaut suit that incorporates advanced technology and materials for a future mission to Mars. Describe its appearance, features, and functionalities in detail, trending on artstatio, full body, shoulders aligned, solid gray background",
+      "negative_prompt": "(lowres, low quality, worst quality:1.2), (text:1.2), watermark, painting, drawing, illustration, glitch, deformed, mutated, cross-eyed,hands,toy,naked",
+      "style_name": "(No style)"
+    },
+    "class_type": "ID_Prompt_Styler",
+    "_meta": {
+      "title": "📷ID Prompt_Styler"
+    }
+  },
+  "409": {
+    "inputs": {
+      "positive": [
+        "408",
+        0
+      ],
+      "negative": [
+        "408",
+        1
+      ],
+      "ip_adapter_scale": 0.8,
+      "controlnet_conditioning_scale": 0.7,
+      "steps": 11,
+      "guidance_scale": 1.2000000000000002,
+      "enhance_face_region": true,
+      "seed": 277260540502043,
+      "face_image": [
+        "436",
+        0
+      ],
+      "pipe": [
+        "407",
+        0
+      ],
+      "insightface": [
+        "405",
+        0
+      ],
+      "pose_image_optional": [
+        "528",
+        0
+      ]
+    },
+    "class_type": "IDGenerationNode",
+    "_meta": {
+      "title": "📷InstantID Generation"
+    }
+  },
+  "411": {
+    "inputs": {
+      "ckpt_name": "turbovisionxlSuperFastXLBasedOnNew_tvxlV431Bakedvae.safetensors",
+      "controlnet": [
+        "406",
+        0
+      ]
+    },
+    "class_type": "IDBaseModelLoader_local",
+    "_meta": {
+      "title": "📷ID Base Model Loader locally"
+    }
+  },
+  "430": {
+    "inputs": {
+      "model_name": "bbox/face_yolov8m.pt"
+    },
+    "class_type": "UltralyticsDetectorProvider",
+    "_meta": {
+      "title": "UltralyticsDetectorProvider"
+    }
+  },
+  "435": {
+    "inputs": {
+      "threshold": 0.5,
+      "dilation": 10,
+      "crop_factor": 3,
+      "drop_size": 10,
+      "labels": "all",
+      "bbox_detector": [
+        "430",
+        0
+      ],
+      "image": [
+        "550",
+        0
+      ]
+    },
+    "class_type": "BboxDetectorSEGS",
+    "_meta": {
+      "title": "BBOX Detector (SEGS)"
+    }
+  },
+  "436": {
+    "inputs": {
+      "alpha_mode": true,
+      "min_alpha": 0.2,
+      "segs": [
+        "553",
+        0
+      ]
+    },
+    "class_type": "SEGSPreview",
+    "_meta": {
+      "title": "SEGSPreview"
+    }
+  },
+  "527": {
+    "inputs": {
+      "image": "360_F_497662812_7rGW6PMBJR9AbrKcGgN5S1luXYTjH92i (1).jpg",
+      "upload": "image"
+    },
+    "class_type": "LoadImage",
+    "_meta": {
+      "title": "Load Image"
+    }
+  },
+  "528": {
+    "inputs": {
+      "images": [
+        "555",
+        0
+      ]
+    },
+    "class_type": "AlphaChanelRemove",
+    "_meta": {
+      "title": "AlphaChanelRemove"
+    }
+  },
+  "550": {
+    "inputs": {
+      "image": "WhatsApp Image 2023-12-16 at 5.59.23 AM (1).jpeg",
+      "upload": "image"
+    },
+    "class_type": "LoadImage",
+    "_meta": {
+      "title": "Load Image"
+    }
+  },
+  "553": {
+    "inputs": {
+      "target": "x1",
+      "order": true,
+      "take_start": 0,
+      "take_count": 1,
+      "segs": [
+        "435",
+        0
+      ]
+    },
+    "class_type": "ImpactSEGSOrderedFilter",
+    "_meta": {
+      "title": "SEGS Filter (ordered)"
+    }
+  },
+  "555": {
+    "inputs": {
+      "scale_width": 0.5,
+      "scale_height": 0.5,
+      "method": "lanczos",
+      "images": [
+        "527",
+        0
+      ]
+    },
+    "class_type": "ImageTransformResizeRelative",
+    "_meta": {
+      "title": "ImageTransformResizeRelative"
+    }
+  },
+  "570": {
+    "inputs": {
+      "filename_prefix": "ComfyUI",
+      "images": [
+        "409",
+        0
+      ]
+    },
+    "class_type": "SaveImage",
+    "_meta": {
+      "title": "Save Image"
+    }
+  }
+}
