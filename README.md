@@ -1,2 +1,2 @@
 # image-generation-chatbot
-implementation of a conversation flow using llm and a graph, with AI image generation tools
+implementation of a simple chatbot with AI image generation tools
